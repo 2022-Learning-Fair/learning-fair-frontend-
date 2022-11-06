@@ -4,6 +4,7 @@ function Tag() {
     const tagId = useParams().tagId;    
     return (
         <div className="Tag">
+        {tagId}
         </div>
     );
 }

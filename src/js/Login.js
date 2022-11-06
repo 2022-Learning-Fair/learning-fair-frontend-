@@ -38,8 +38,8 @@ function Login() {
       setName("")
       return
     }
-    if (radioValue=='재학생'){
-      if (studentId.length!=10 || isNaN(studentId)){
+    if (radioValue==='재학생'){
+      if (studentId.length!==10 || isNaN(studentId)){
         console.log(studentId)
         alert('학번을 정확히 입력해주세요!')
         setStudentId("")
@@ -61,7 +61,7 @@ function Login() {
       studentId,
       major
     }
-    navigate("/main");
+    navigate("/");
     console.log(submitValue)
   }
   return (
