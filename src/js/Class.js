@@ -4,7 +4,7 @@ function Class() {
     const classId = useParams().classId;    
     return (
         <div className="Class">
-        
+        {classId}
         </div>
     );
 }
