@@ -59,9 +59,9 @@ function Login() {
       userType:radioValue,
       name,
       studentId,
-      major
+      major:radioValue
     }
-    navigate("/");
+    navigate("/main");
     console.log(submitValue)
   }
   return (
