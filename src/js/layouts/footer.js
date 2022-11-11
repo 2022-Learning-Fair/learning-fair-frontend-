@@ -1,6 +1,6 @@
 import React from "react"
 import "../../css/layouts/footer.css"
-import Favicon from "./favicon"
+// import Favicon from "./favicon"
 const Footer = () => {
   return (
     <footer>
