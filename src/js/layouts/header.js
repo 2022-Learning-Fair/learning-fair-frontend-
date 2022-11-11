@@ -2,13 +2,11 @@ import React, { useState } from 'react';
 // import $ from 'jquery';
 import { useNavigate } from "react-router-dom";
 import "../../css/layouts/header.scss"
-import  Button  from './button';
-import MenuGroup from './MenuGroup';
-import Menu from './Menu';
-// import Hover from './hover';
+import Button from './header/button';
+import MenuGroup from './header/MenuGroup';
+import Menu from './header/Menu';
 
 const Header = () => {
-  const [classURL, setClassURL] = useState('/class');
   const [userName, setUserName] = useState('방문자');
   const navigate = useNavigate();
   function handleOnClick(classURL){
