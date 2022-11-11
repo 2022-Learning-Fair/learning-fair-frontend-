@@ -53,13 +53,13 @@ function Login() {
     }
     else{
       setStudentId(0)
-      setMajor(".")
+      setMajor(radioValue)
     }
     const submitValue={
       userType:radioValue,
       name,
       studentId,
-      major:radioValue
+      major
     }
     navigate("/main");
     console.log(submitValue)
