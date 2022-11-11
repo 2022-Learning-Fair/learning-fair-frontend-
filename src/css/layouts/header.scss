@@ -3,8 +3,7 @@ $primary: #e74c3c;
 
 .header {
     width: auto;
-    backdrop-filter: blur(50px);
-    border: 1px solid rgba(0,0,0,0.1);
+    // backdrop-filter: blur(50px);
     // box-shadow: 10px 20px 40px #00000033;
     padding: 10px;
     display: flex;
@@ -16,7 +15,6 @@ $primary: #e74c3c;
     // border-radius: 10px;
     margin: 10px 30px;
     letter-spacing: 0.1em;
-
 }
 
 
